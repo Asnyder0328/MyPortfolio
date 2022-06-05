@@ -1,0 +1,58 @@
+* , *::before, *::after{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-image:  url(/assets/pexels-mudassir-ali-2680270.jpg);
+    font-family: Caveat;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    background-color: #777;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 1);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+     background-color: #777;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 1);
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#socialmediacontainer {
+
+}
